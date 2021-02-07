@@ -2,3 +2,8 @@
 
 const knex = require("knex");
 const config = require("../../data/dbConfig");
+
+module.exports = {
+  get,
+  post,
+};
